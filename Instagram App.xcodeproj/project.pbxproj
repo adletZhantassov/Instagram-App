@@ -9,21 +9,49 @@
 /* Begin PBXBuildFile section */
 		60470CE329086E7300616BAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60470CE229086E7300616BAC /* AppDelegate.swift */; };
 		60470CE529086E7300616BAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60470CE429086E7300616BAC /* SceneDelegate.swift */; };
-		60470CE729086E7300616BAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60470CE629086E7300616BAC /* ViewController.swift */; };
+		60470CE729086E7300616BAC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60470CE629086E7300616BAC /* HomeViewController.swift */; };
 		60470CEA29086E7300616BAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60470CE829086E7300616BAC /* Main.storyboard */; };
 		60470CEC29086E7400616BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60470CEB29086E7400616BAC /* Assets.xcassets */; };
 		60470CEF29086E7400616BAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60470CED29086E7400616BAC /* LaunchScreen.storyboard */; };
+		60470CFC29086F4600616BAC /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60470CFB29086F4600616BAC /* ExploreViewController.swift */; };
+		60470CFE29086F6000616BAC /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60470CFD29086F6000616BAC /* CameraViewController.swift */; };
+		60470D0029086F7100616BAC /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60470CFF29086F7100616BAC /* NotificationViewController.swift */; };
+		60470D0229086F7A00616BAC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60470D0129086F7A00616BAC /* ProfileViewController.swift */; };
+		60470D0629086FD900616BAC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60470D0529086FD900616BAC /* LoginViewController.swift */; };
+		60470D0829086FE900616BAC /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60470D0729086FE900616BAC /* RegistrationViewController.swift */; };
+		60470D0B2908700800616BAC /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60470D0A2908700800616BAC /* PostViewController.swift */; };
+		60470D0D2908702600616BAC /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60470D0C2908702600616BAC /* EditViewController.swift */; };
+		60470D0F2908703100616BAC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60470D0E2908703100616BAC /* SettingsViewController.swift */; };
+		60470D112908703C00616BAC /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60470D102908703C00616BAC /* ListViewController.swift */; };
+		60470D132908704D00616BAC /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60470D122908704D00616BAC /* SearchViewController.swift */; };
+		60470D152908705F00616BAC /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60470D142908705F00616BAC /* SearchResultViewController.swift */; };
+		60470D172908708B00616BAC /* PostEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60470D162908708B00616BAC /* PostEditorViewController.swift */; };
+		60470D192908709700616BAC /* PublishPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60470D182908709700616BAC /* PublishPostViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		60470CDF29086E7300616BAC /* Instagram App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instagram App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60470CE229086E7300616BAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60470CE429086E7300616BAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		60470CE629086E7300616BAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		60470CE629086E7300616BAC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		60470CE929086E7300616BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		60470CEB29086E7400616BAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60470CEE29086E7400616BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60470CF029086E7400616BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60470CFB29086F4600616BAC /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		60470CFD29086F6000616BAC /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		60470CFF29086F7100616BAC /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		60470D0129086F7A00616BAC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		60470D0529086FD900616BAC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		60470D0729086FE900616BAC /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		60470D0A2908700800616BAC /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		60470D0C2908702600616BAC /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		60470D0E2908703100616BAC /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		60470D102908703C00616BAC /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		60470D122908704D00616BAC /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		60470D142908705F00616BAC /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		60470D162908708B00616BAC /* PostEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
+		60470D182908709700616BAC /* PublishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +84,93 @@
 		60470CE129086E7300616BAC /* Instagram App */ = {
 			isa = PBXGroup;
 			children = (
-				60470CE229086E7300616BAC /* AppDelegate.swift */,
-				60470CE429086E7300616BAC /* SceneDelegate.swift */,
-				60470CE629086E7300616BAC /* ViewController.swift */,
-				60470CE829086E7300616BAC /* Main.storyboard */,
-				60470CEB29086E7400616BAC /* Assets.xcassets */,
-				60470CED29086E7400616BAC /* LaunchScreen.storyboard */,
+				60470CF929086EBD00616BAC /* Resources */,
+				60470CF829086EB700616BAC /* Models */,
+				60470CF729086EB100616BAC /* Views */,
+				60470CF629086EA700616BAC /* Controllers */,
 				60470CF029086E7400616BAC /* Info.plist */,
 			);
 			path = "Instagram App";
+			sourceTree = "<group>";
+		};
+		60470CF629086EA700616BAC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				60470D0929086FF200616BAC /* Other */,
+				60470D0329086F9500616BAC /* CoreTabs */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		60470CF729086EB100616BAC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				60470CFA29086EF300616BAC /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		60470CF829086EB700616BAC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		60470CF929086EBD00616BAC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				60470CE229086E7300616BAC /* AppDelegate.swift */,
+				60470CE429086E7300616BAC /* SceneDelegate.swift */,
+				60470CEB29086E7400616BAC /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		60470CFA29086EF300616BAC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				60470CE829086E7300616BAC /* Main.storyboard */,
+				60470CED29086E7400616BAC /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		60470D0329086F9500616BAC /* CoreTabs */ = {
+			isa = PBXGroup;
+			children = (
+				60470CE629086E7300616BAC /* HomeViewController.swift */,
+				60470CFB29086F4600616BAC /* ExploreViewController.swift */,
+				60470CFD29086F6000616BAC /* CameraViewController.swift */,
+				60470CFF29086F7100616BAC /* NotificationViewController.swift */,
+				60470D0129086F7A00616BAC /* ProfileViewController.swift */,
+			);
+			path = CoreTabs;
+			sourceTree = "<group>";
+		};
+		60470D0429086FCA00616BAC /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				60470D0529086FD900616BAC /* LoginViewController.swift */,
+				60470D0729086FE900616BAC /* RegistrationViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		60470D0929086FF200616BAC /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				60470D0429086FCA00616BAC /* Onboarding */,
+				60470D0A2908700800616BAC /* PostViewController.swift */,
+				60470D0C2908702600616BAC /* EditViewController.swift */,
+				60470D0E2908703100616BAC /* SettingsViewController.swift */,
+				60470D102908703C00616BAC /* ListViewController.swift */,
+				60470D122908704D00616BAC /* SearchViewController.swift */,
+				60470D142908705F00616BAC /* SearchResultViewController.swift */,
+				60470D162908708B00616BAC /* PostEditorViewController.swift */,
+				60470D182908709700616BAC /* PublishPostViewController.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +244,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60470CE729086E7300616BAC /* ViewController.swift in Sources */,
+				60470CFC29086F4600616BAC /* ExploreViewController.swift in Sources */,
+				60470CFE29086F6000616BAC /* CameraViewController.swift in Sources */,
+				60470D192908709700616BAC /* PublishPostViewController.swift in Sources */,
+				60470D0029086F7100616BAC /* NotificationViewController.swift in Sources */,
+				60470D0829086FE900616BAC /* RegistrationViewController.swift in Sources */,
+				60470D0B2908700800616BAC /* PostViewController.swift in Sources */,
+				60470D172908708B00616BAC /* PostEditorViewController.swift in Sources */,
+				60470CE729086E7300616BAC /* HomeViewController.swift in Sources */,
+				60470D0629086FD900616BAC /* LoginViewController.swift in Sources */,
+				60470D152908705F00616BAC /* SearchResultViewController.swift in Sources */,
+				60470D0229086F7A00616BAC /* ProfileViewController.swift in Sources */,
+				60470D132908704D00616BAC /* SearchViewController.swift in Sources */,
 				60470CE329086E7300616BAC /* AppDelegate.swift in Sources */,
+				60470D0D2908702600616BAC /* EditViewController.swift in Sources */,
 				60470CE529086E7300616BAC /* SceneDelegate.swift in Sources */,
+				60470D112908703C00616BAC /* ListViewController.swift in Sources */,
+				60470D0F2908703100616BAC /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +413,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,7 +425,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,6 +442,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,7 +454,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
